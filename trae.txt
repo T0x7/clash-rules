@@ -1,4 +1,5 @@
 payload:
+  - 'trae-api-sg.mchost.guru'
   - '+.mchose.pro'
   - '+.mchost.guru'
   
