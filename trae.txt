@@ -4,5 +4,6 @@ payload:
   - '+.mchost.guru'
   - '+.trae.com.cn'
   - '+.trae.ai'
+  - '+.byteintlapi.com'
 
   
