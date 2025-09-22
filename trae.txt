@@ -3,5 +3,6 @@ payload:
   - '+.mchose.pro'
   - '+.mchost.guru'
   - '+.trae.com.cn'
+  - '+.trae.ai'
 
   
