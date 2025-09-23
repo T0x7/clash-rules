@@ -5,4 +5,5 @@ payload:
   - '+.trae.com.cn'
   - '+.trae.ai'
   - '+.ztsy.link'
+  - '+.byteintlapi.com'
   
