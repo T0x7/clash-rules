@@ -1,577 +1,575 @@
-# 其他规则集合
-# 包含各种服务和网站的代理规则
+payload:
+  # AI 和开发工具
+  - DOMAIN-SUFFIX,stockgeist.ai
+  - DOMAIN-SUFFIX,ipleak.net
+  - DOMAIN-SUFFIX,docker.io
+  - DOMAIN-SUFFIX,pexels.com
+  - DOMAIN-SUFFIX,openstreetmap.org
+  - DOMAIN-SUFFIX,manus.im
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,nodeseek.com
 
-# AI 和开发工具
-DOMAIN-SUFFIX,stockgeist.ai
-DOMAIN-SUFFIX,ipleak.net
-DOMAIN-SUFFIX,docker.io
-DOMAIN-SUFFIX,pexels.com
-DOMAIN-SUFFIX,openstreetmap.org
-DOMAIN-SUFFIX,manus.im
-DOMAIN-SUFFIX,x.ai
-DOMAIN-SUFFIX,grok.com
-DOMAIN-SUFFIX,nodeseek.com
+  # 任哲云相关
+  - DOMAIN,renzhe.cloud
+  - DOMAIN,renzhecloud.com
+  - DOMAIN,knowledgebase.renzhecloud.link
+  - DOMAIN,status.renzhecloud.link
+  - DOMAIN,renzhesubconverter.com
+  - DOMAIN,share.renzhe.cloud
 
-# 任哲云相关
-DOMAIN,renzhe.cloud
-DOMAIN,renzhecloud.com
-DOMAIN,knowledgebase.renzhecloud.link
-DOMAIN,status.renzhecloud.link
-DOMAIN,renzhesubconverter.com
-DOMAIN,share.renzhe.cloud
+  # OpenAI 相关
+  - DOMAIN,chatgpt.com
+  - DOMAIN,chat.com
+  - DOMAIN,oaistatic.com
+  - DOMAIN,oaiusercontent.com
+  - DOMAIN,openai.com.cdn.cloudflare.net
+  - DOMAIN,openaiapi-site.azureedge.net
+  - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN,o33249.ingest.sentry.io
+  - DOMAIN,openaicom.imgix.net
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,openai.com
 
-# OpenAI 相关
-DOMAIN,chatgpt.com
-DOMAIN,chat.com
-DOMAIN,oaistatic.com
-DOMAIN,oaiusercontent.com
-DOMAIN,openai.com.cdn.cloudflare.net
-DOMAIN,openaiapi-site.azureedge.net
-DOMAIN,production-openaicom-storage.azureedge.net
-DOMAIN,o33249.ingest.sentry.io
-DOMAIN,openaicom.imgix.net
-DOMAIN-SUFFIX,ai.com
-DOMAIN-SUFFIX,openai.com
+  # Anthropic Claude
+  - DOMAIN,anthropic.com
+  - DOMAIN,claude.ai
+  - DOMAIN,claudeusercontent.com
+  - DOMAIN,servd-anthropic-website.b-cdn.net
 
-# Anthropic Claude
-DOMAIN,anthropic.com
-DOMAIN,claude.ai
-DOMAIN,claudeusercontent.com
-DOMAIN,servd-anthropic-website.b-cdn.net
+  # Gmail 相关
+  - DOMAIN,pop.gmail.com
+  - DOMAIN,smtp.gmail.com
+  - DOMAIN,imap.gmail.com
+  - DOMAIN,ads.google.com
 
-# Gmail 相关
-DOMAIN,pop.gmail.com
-DOMAIN,smtp.gmail.com
-DOMAIN,imap.gmail.com
-DOMAIN,ads.google.com
+  # 关键词规则
+  - DOMAIN-KEYWORD,1e100
+  - DOMAIN-KEYWORD,appledaily
+  - DOMAIN-KEYWORD,beetalk
+  - DOMAIN-KEYWORD,blogspot
+  - DOMAIN-KEYWORD,dropbox
+  - DOMAIN-KEYWORD,facebook
+  - DOMAIN-KEYWORD,fbcdn
+  - DOMAIN-KEYWORD,github
+  - DOMAIN-KEYWORD,instagram
+  - DOMAIN-KEYWORD,sci-hub
+  - DOMAIN-KEYWORD,whatsapp
+  - DOMAIN-KEYWORD,ttvnw
+  - DOMAIN-KEYWORD,twitter
 
-# 关键词规则
-DOMAIN-KEYWORD,1e100
-DOMAIN-KEYWORD,appledaily
-DOMAIN-KEYWORD,beetalk
-DOMAIN-KEYWORD,blogspot
-DOMAIN-KEYWORD,dropbox
-DOMAIN-KEYWORD,facebook
-DOMAIN-KEYWORD,fbcdn
-DOMAIN-KEYWORD,github
-DOMAIN-KEYWORD,instagram
-DOMAIN-KEYWORD,sci-hub
-DOMAIN-KEYWORD,whatsapp
-DOMAIN-KEYWORD,ttvnw
-DOMAIN-KEYWORD,twitter
+  # Plex 媒体服务器
+  - DOMAIN-SUFFIX,me.plexapp.com
+  - DOMAIN-SUFFIX,tvthemes.plexapp.com
+  - DOMAIN-SUFFIX,app.plex.tv
+  - DOMAIN-SUFFIX,clients.plex.tv
+  - DOMAIN-SUFFIX,images.plex.tv
+  - DOMAIN-SUFFIX,assets.plex.tv
+  - DOMAIN-SUFFIX,sonos.plex.tv
+  - DOMAIN-SUFFIX,meta.plex.tv
+  - DOMAIN-SUFFIX,downloads.plex.tv
+  - DOMAIN-SUFFIX,analytics.plex.tv
+  - DOMAIN-SUFFIX,provider.plex.tv
+  - DOMAIN-SUFFIX,provider-static.plex.tv
+  - DOMAIN-SUFFIX,metadata-static.plex.tv
 
-# Plex 媒体服务器
-DOMAIN-SUFFIX,me.plexapp.com
-DOMAIN-SUFFIX,tvthemes.plexapp.com
-DOMAIN-SUFFIX,app.plex.tv
-DOMAIN-SUFFIX,clients.plex.tv
-DOMAIN-SUFFIX,images.plex.tv
-DOMAIN-SUFFIX,assets.plex.tv
-DOMAIN-SUFFIX,sonos.plex.tv
-DOMAIN-SUFFIX,meta.plex.tv
-DOMAIN-SUFFIX,downloads.plex.tv
-DOMAIN-SUFFIX,analytics.plex.tv
-DOMAIN-SUFFIX,provider.plex.tv
-DOMAIN-SUFFIX,provider-static.plex.tv
-DOMAIN-SUFFIX,metadata-static.plex.tv
+  # 常用工具和服务
+  - DOMAIN-SUFFIX,1password.com
+  - DOMAIN-SUFFIX,adguard.org
+  - DOMAIN-SUFFIX,bit.no.com
+  - DOMAIN-SUFFIX,btlibrary.me
+  - DOMAIN-SUFFIX,cccat.io
+  - DOMAIN-SUFFIX,cloudcone.com
+  - DOMAIN-SUFFIX,dubox.com
+  - DOMAIN-SUFFIX,gameloft.com
+  - DOMAIN-SUFFIX,garena.com
+  - DOMAIN-SUFFIX,inoreader.com
+  - DOMAIN-SUFFIX,ping.pe
+  - DOMAIN-SUFFIX,reddit.com
+  - DOMAIN-SUFFIX,teddysun.com
+  - DOMAIN-SUFFIX,tumbex.com
+  - DOMAIN-SUFFIX,twdvd.com
+  - DOMAIN-SUFFIX,unsplash.com
+  - DOMAIN-SUFFIX,xn--i2ru8q2qg.com
+  - DOMAIN-SUFFIX,yunpanjingling.com
+  - DOMAIN-SUFFIX,recaptcha.net
 
-# 常用工具和服务
-DOMAIN-SUFFIX,1password.com
-DOMAIN-SUFFIX,adguard.org
-DOMAIN-SUFFIX,bit.no.com
-DOMAIN-SUFFIX,btlibrary.me
-DOMAIN-SUFFIX,cccat.io
-DOMAIN-SUFFIX,cloudcone.com
-DOMAIN-SUFFIX,dubox.com
-DOMAIN-SUFFIX,gameloft.com
-DOMAIN-SUFFIX,garena.com
-DOMAIN-SUFFIX,inoreader.com
-DOMAIN-SUFFIX,ping.pe
-DOMAIN-SUFFIX,reddit.com
-DOMAIN-SUFFIX,teddysun.com
-DOMAIN-SUFFIX,tumbex.com
-DOMAIN-SUFFIX,twdvd.com
-DOMAIN-SUFFIX,unsplash.com
-DOMAIN-SUFFIX,xn--i2ru8q2qg.com
-DOMAIN-SUFFIX,yunpanjingling.com
-DOMAIN-SUFFIX,recaptcha.net
+  # 网络服务
+  - DOMAIN-SUFFIX,4sqi.net
+  - DOMAIN-SUFFIX,adobedtm.com
+  - DOMAIN-SUFFIX,ampproject.org
+  - DOMAIN-SUFFIX,aolcdn.com
+  - DOMAIN-SUFFIX,apkmirror.com
+  - DOMAIN-SUFFIX,apkpure.com
+  - DOMAIN-SUFFIX,appspot.com
+  - DOMAIN-SUFFIX,archive.org
+  - DOMAIN-SUFFIX,armorgames.com
+  - DOMAIN-SUFFIX,aspnetcdn.com
+  - DOMAIN-SUFFIX,awsstatic.com
+  - DOMAIN-SUFFIX,bandwagonhost.com
+  - DOMAIN-SUFFIX,bkrtx.com
+  - DOMAIN-SUFFIX,blogcdn.com
+  - DOMAIN-SUFFIX,blogger.com
+  - DOMAIN-SUFFIX,blogsmithmedia.com
+  - DOMAIN-SUFFIX,blogspot.com
+  - DOMAIN-SUFFIX,blogspot.hk
+  - DOMAIN-SUFFIX,blogspot.jp
+  - DOMAIN-SUFFIX,bloomberg.cn
+  - DOMAIN-SUFFIX,bloomberg.com
+  - DOMAIN-SUFFIX,box.com
+  - DOMAIN-SUFFIX,cachefly.net
+  - DOMAIN-SUFFIX,cdnst.net
+  - DOMAIN-SUFFIX,comodoca.com
+  - DOMAIN-SUFFIX,daum.net
+  - DOMAIN-SUFFIX,deskconnect.com
+  - DOMAIN-SUFFIX,disqus.com
+  - DOMAIN-SUFFIX,disquscdn.com
+  - DOMAIN-SUFFIX,dropbox.com
+  - DOMAIN-SUFFIX,dropboxapi.com
+  - DOMAIN-SUFFIX,dropboxstatic.com
+  - DOMAIN-SUFFIX,dropboxusercontent.com
+  - DOMAIN-SUFFIX,duckduckgo.com
+  - DOMAIN-SUFFIX,eurekavpt.com
+  - DOMAIN-SUFFIX,fastmail.com
+  - DOMAIN-SUFFIX,firebaseio.com
+  - DOMAIN-SUFFIX,flickr.com
+  - DOMAIN-SUFFIX,flipboard.com
+  - DOMAIN-SUFFIX,gfx.ms
+  - DOMAIN-SUFFIX,gongm.in
+  - DOMAIN-SUFFIX,id.heroku.com
+  - DOMAIN-SUFFIX,io.io
+  - DOMAIN-SUFFIX,issuu.com
+  - DOMAIN-SUFFIX,ixquick.com
+  - DOMAIN-SUFFIX,jtvnw.net
+  - DOMAIN-SUFFIX,kat.cr
+  - DOMAIN-SUFFIX,kik.com
+  - DOMAIN-SUFFIX,kobo.com
+  - DOMAIN-SUFFIX,kobobooks.com
+  - DOMAIN-SUFFIX,licdn.com
+  - DOMAIN-SUFFIX,linkedin.com
+  - DOMAIN-SUFFIX,llnwd.net
+  - DOMAIN-SUFFIX,macrumors.com
+  - DOMAIN-SUFFIX,medium.com
+  - DOMAIN-SUFFIX,mega.nz
+  - DOMAIN-SUFFIX,megaupload.com
+  - DOMAIN-SUFFIX,messenger.com
+  - DOMAIN-SUFFIX,netdna-cdn.com
+  - DOMAIN-SUFFIX,nintendo.net
+  - DOMAIN-SUFFIX,nsstatic.net
+  - DOMAIN-SUFFIX,nytstyle.com
+  - DOMAIN-SUFFIX,overcast.fm
+  - DOMAIN-SUFFIX,openvpn.net
+  - DOMAIN-SUFFIX,periscope.tv
+  - DOMAIN-SUFFIX,pinimg.com
+  - DOMAIN-SUFFIX,pinterest.com
+  - DOMAIN-SUFFIX,potato.im
+  - DOMAIN-SUFFIX,prfct.co
+  - DOMAIN-SUFFIX,pscp.tv
+  - DOMAIN-SUFFIX,quora.com
+  - DOMAIN-SUFFIX,resilio.com
+  - DOMAIN-SUFFIX,sfx.ms
+  - DOMAIN-SUFFIX,shadowsocks.org
+  - DOMAIN-SUFFIX,smartdnsproxy.com
+  - DOMAIN-SUFFIX,sndcdn.com
+  - DOMAIN-SUFFIX,soundcloud.com
+  - DOMAIN-SUFFIX,startpage.com
+  - DOMAIN-SUFFIX,staticflickr.com
+  - DOMAIN-SUFFIX,symauth.com
+  - DOMAIN-SUFFIX,symcb.com
+  - DOMAIN-SUFFIX,symcd.com
+  - DOMAIN-SUFFIX,textnow.com
+  - DOMAIN-SUFFIX,textnow.me
+  - DOMAIN-SUFFIX,thefacebook.com
+  - DOMAIN-SUFFIX,thepiratebay.org
+  - DOMAIN-SUFFIX,torproject.org
+  - DOMAIN-SUFFIX,trustasiassl.com
+  - DOMAIN-SUFFIX,tumblr.co
+  - DOMAIN-SUFFIX,tumblr.com
+  - DOMAIN-SUFFIX,txmblr.com
+  - DOMAIN-SUFFIX,v2ex.com
+  - DOMAIN-SUFFIX,vimeo.com
+  - DOMAIN-SUFFIX,vine.co
+  - DOMAIN-SUFFIX,vox-cdn.com
 
-# 网络服务
-DOMAIN-SUFFIX,4sqi.net
-DOMAIN-SUFFIX,adobedtm.com
-DOMAIN-SUFFIX,ampproject.org
-DOMAIN-SUFFIX,aolcdn.com
-DOMAIN-SUFFIX,apkmirror.com
-DOMAIN-SUFFIX,apkpure.com
-DOMAIN-SUFFIX,appspot.com
-DOMAIN-SUFFIX,archive.org
-DOMAIN-SUFFIX,armorgames.com
-DOMAIN-SUFFIX,aspnetcdn.com
-DOMAIN-SUFFIX,awsstatic.com
-DOMAIN-SUFFIX,bandwagonhost.com
-DOMAIN-SUFFIX,bkrtx.com
-DOMAIN-SUFFIX,blogcdn.com
-DOMAIN-SUFFIX,blogger.com
-DOMAIN-SUFFIX,blogsmithmedia.com
-DOMAIN-SUFFIX,blogspot.com
-DOMAIN-SUFFIX,blogspot.hk
-DOMAIN-SUFFIX,blogspot.jp
-DOMAIN-SUFFIX,bloomberg.cn
-DOMAIN-SUFFIX,bloomberg.com
-DOMAIN-SUFFIX,box.com
-DOMAIN-SUFFIX,cachefly.net
-DOMAIN-SUFFIX,cdnst.net
-DOMAIN-SUFFIX,comodoca.com
-DOMAIN-SUFFIX,daum.net
-DOMAIN-SUFFIX,deskconnect.com
-DOMAIN-SUFFIX,disqus.com
-DOMAIN-SUFFIX,disquscdn.com
-DOMAIN-SUFFIX,dropbox.com
-DOMAIN-SUFFIX,dropboxapi.com
-DOMAIN-SUFFIX,dropboxstatic.com
-DOMAIN-SUFFIX,dropboxusercontent.com
-DOMAIN-SUFFIX,duckduckgo.com
-DOMAIN-SUFFIX,eurekavpt.com
-DOMAIN-SUFFIX,fastmail.com
-DOMAIN-SUFFIX,firebaseio.com
-DOMAIN-SUFFIX,flickr.com
-DOMAIN-SUFFIX,flipboard.com
-DOMAIN-SUFFIX,gfx.ms
-DOMAIN-SUFFIX,gongm.in
-DOMAIN-SUFFIX,id.heroku.com
-DOMAIN-SUFFIX,io.io
-DOMAIN-SUFFIX,issuu.com
-DOMAIN-SUFFIX,ixquick.com
-DOMAIN-SUFFIX,jtvnw.net
-DOMAIN-SUFFIX,kat.cr
-DOMAIN-SUFFIX,kik.com
-DOMAIN-SUFFIX,kobo.com
-DOMAIN-SUFFIX,kobobooks.com
-DOMAIN-SUFFIX,licdn.com
-DOMAIN-SUFFIX,linkedin.com
-DOMAIN-SUFFIX,llnwd.net
-DOMAIN-SUFFIX,macrumors.com
-DOMAIN-SUFFIX,medium.com
-DOMAIN-SUFFIX,mega.nz
-DOMAIN-SUFFIX,megaupload.com
-DOMAIN-SUFFIX,messenger.com
-DOMAIN-SUFFIX,netdna-cdn.com
-DOMAIN-SUFFIX,nintendo.net
-DOMAIN-SUFFIX,nsstatic.net
-DOMAIN-SUFFIX,nytstyle.com
-DOMAIN-SUFFIX,overcast.fm
-DOMAIN-SUFFIX,openvpn.net
-DOMAIN-SUFFIX,periscope.tv
-DOMAIN-SUFFIX,pinimg.com
-DOMAIN-SUFFIX,pinterest.com
-DOMAIN-SUFFIX,potato.im
-DOMAIN-SUFFIX,prfct.co
-DOMAIN-SUFFIX,pscp.tv
-DOMAIN-SUFFIX,quora.com
-DOMAIN-SUFFIX,resilio.com
-DOMAIN-SUFFIX,sfx.ms
-DOMAIN-SUFFIX,shadowsocks.org
-DOMAIN-SUFFIX,smartdnsproxy.com
-DOMAIN-SUFFIX,sndcdn.com
-DOMAIN-SUFFIX,soundcloud.com
-DOMAIN-SUFFIX,startpage.com
-DOMAIN-SUFFIX,staticflickr.com
-DOMAIN-SUFFIX,symauth.com
-DOMAIN-SUFFIX,symcb.com
-DOMAIN-SUFFIX,symcd.com
-DOMAIN-SUFFIX,textnow.com
-DOMAIN-SUFFIX,textnow.me
-DOMAIN-SUFFIX,thefacebook.com
-DOMAIN-SUFFIX,thepiratebay.org
-DOMAIN-SUFFIX,torproject.org
-DOMAIN-SUFFIX,trustasiassl.com
-DOMAIN-SUFFIX,tumblr.co
-DOMAIN-SUFFIX,tumblr.com
-DOMAIN-SUFFIX,txmblr.com
-DOMAIN-SUFFIX,v2ex.com
-DOMAIN-SUFFIX,vimeo.com
-DOMAIN-SUFFIX,vine.co
-DOMAIN-SUFFIX,vox-cdn.com
+  # 开发工具
+  - DOMAIN-SUFFIX,apache.org
+  - DOMAIN-SUFFIX,docker.com
+  - DOMAIN-SUFFIX,elastic.co
+  - DOMAIN-SUFFIX,elastic.com
+  - DOMAIN-SUFFIX,gcr.io
+  - DOMAIN-SUFFIX,gitlab.com
+  - DOMAIN-SUFFIX,gitlab.io
+  - DOMAIN-SUFFIX,jitpack.io
+  - DOMAIN-SUFFIX,maven.org
+  - DOMAIN-SUFFIX,mvnrepository.com
+  - DOMAIN-SUFFIX,quay.io
+  - DOMAIN-SUFFIX,redhat.com
+  - DOMAIN-SUFFIX,sonatype.org
+  - DOMAIN-SUFFIX,sourcegraph.com
+  - DOMAIN-SUFFIX,spring.io
+  - DOMAIN-SUFFIX,spring.net
+  - DOMAIN-SUFFIX,stackoverflow.com
 
-# 开发工具
-DOMAIN-SUFFIX,apache.org
-DOMAIN-SUFFIX,docker.com
-DOMAIN-SUFFIX,elastic.co
-DOMAIN-SUFFIX,elastic.com
-DOMAIN-SUFFIX,gcr.io
-DOMAIN-SUFFIX,gitlab.com
-DOMAIN-SUFFIX,gitlab.io
-DOMAIN-SUFFIX,jitpack.io
-DOMAIN-SUFFIX,maven.org
-DOMAIN-SUFFIX,mvnrepository.com
-DOMAIN-SUFFIX,quay.io
-DOMAIN-SUFFIX,redhat.com
-DOMAIN-SUFFIX,sonatype.org
-DOMAIN-SUFFIX,sourcegraph.com
-DOMAIN-SUFFIX,spring.io
-DOMAIN-SUFFIX,spring.net
-DOMAIN-SUFFIX,stackoverflow.com
+  # Discord
+  - DOMAIN-SUFFIX,discord.co
+  - DOMAIN-SUFFIX,discord.com
+  - DOMAIN-SUFFIX,discord.gg
+  - DOMAIN-SUFFIX,discord.media
+  - DOMAIN-SUFFIX,discordapp.com
+  - DOMAIN-SUFFIX,discordapp.net
 
-# Discord
-DOMAIN-SUFFIX,discord.co
-DOMAIN-SUFFIX,discord.com
-DOMAIN-SUFFIX,discord.gg
-DOMAIN-SUFFIX,discord.media
-DOMAIN-SUFFIX,discordapp.com
-DOMAIN-SUFFIX,discordapp.net
+  # Facebook
+  - DOMAIN-SUFFIX,facebook.com
+  - DOMAIN-SUFFIX,fb.com
+  - DOMAIN-SUFFIX,fb.me
+  - DOMAIN-SUFFIX,fbcdn.com
+  - DOMAIN-SUFFIX,fbcdn.net
 
-# Facebook
-DOMAIN-SUFFIX,facebook.com
-DOMAIN-SUFFIX,fb.com
-DOMAIN-SUFFIX,fb.me
-DOMAIN-SUFFIX,fbcdn.com
-DOMAIN-SUFFIX,fbcdn.net
+  # GitHub
+  - DOMAIN-SUFFIX,github.com
+  - DOMAIN-SUFFIX,github.io
+  - DOMAIN-SUFFIX,githubapp.com
+  - DOMAIN-SUFFIX,githubassets.com
+  - DOMAIN-SUFFIX,githubusercontent.com
 
-# GitHub
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,github.io
-DOMAIN-SUFFIX,githubapp.com
-DOMAIN-SUFFIX,githubassets.com
-DOMAIN-SUFFIX,githubusercontent.com
+  # Google 相关
+  - DOMAIN-SUFFIX,1e100.net
+  - DOMAIN-SUFFIX,2mdn.net
+  - DOMAIN-SUFFIX,app-measurement.net
 
-# Google 相关
-DOMAIN-SUFFIX,1e100.net
-DOMAIN-SUFFIX,2mdn.net
-DOMAIN-SUFFIX,app-measurement.net
+  # Instagram
+  - DOMAIN-SUFFIX,cdninstagram.com
+  - DOMAIN-SUFFIX,instagram.com
+  - DOMAIN-SUFFIX,instagr.am
 
-# Instagram
-DOMAIN-SUFFIX,cdninstagram.com
-DOMAIN-SUFFIX,instagram.com
-DOMAIN-SUFFIX,instagr.am
+  # Kakao
+  - DOMAIN-SUFFIX,kakao.com
+  - DOMAIN-SUFFIX,kakao.co.kr
+  - DOMAIN-SUFFIX,kakaocdn.net
 
-# Kakao
-DOMAIN-SUFFIX,kakao.com
-DOMAIN-SUFFIX,kakao.co.kr
-DOMAIN-SUFFIX,kakaocdn.net
+  # Line
+  - DOMAIN-SUFFIX,lin.ee
+  - DOMAIN-SUFFIX,line-apps.com
+  - DOMAIN-SUFFIX,line-cdn.net
+  - DOMAIN-SUFFIX,line-scdn.net
+  - DOMAIN-SUFFIX,line.me
+  - DOMAIN-SUFFIX,line.naver.jp
+  - DOMAIN-SUFFIX,nhncorp.jp
 
-# Line
-DOMAIN-SUFFIX,lin.ee
-DOMAIN-SUFFIX,line-apps.com
-DOMAIN-SUFFIX,line-cdn.net
-DOMAIN-SUFFIX,line-scdn.net
-DOMAIN-SUFFIX,line.me
-DOMAIN-SUFFIX,line.naver.jp
-DOMAIN-SUFFIX,nhncorp.jp
+  # 成人内容
+  - DOMAIN-SUFFIX,8teenxxx.com
+  - DOMAIN-SUFFIX,ahcdn.com
+  - DOMAIN-SUFFIX,bcvcdn.com
+  - DOMAIN-SUFFIX,bongacams.com
+  - DOMAIN-SUFFIX,chaturbate.com
+  - DOMAIN-SUFFIX,dditscdn.com
+  - DOMAIN-SUFFIX,livejasmin.com
+  - DOMAIN-SUFFIX,rdtcdn.com
+  - DOMAIN-SUFFIX,redtube.com
+  - DOMAIN-SUFFIX,sb-cd.com
+  - DOMAIN-SUFFIX,spankbang.com
+  - DOMAIN-SUFFIX,t66y.com
+  - DOMAIN-SUFFIX,xhamster.com
+  - DOMAIN-SUFFIX,xnxx-cdn.com
+  - DOMAIN-SUFFIX,xnxx.com
+  - DOMAIN-SUFFIX,ypncdn.com
 
-# 成人内容
-DOMAIN-SUFFIX,8teenxxx.com
-DOMAIN-SUFFIX,ahcdn.com
-DOMAIN-SUFFIX,bcvcdn.com
-DOMAIN-SUFFIX,bongacams.com
-DOMAIN-SUFFIX,chaturbate.com
-DOMAIN-SUFFIX,dditscdn.com
-DOMAIN-SUFFIX,livejasmin.com
-DOMAIN-SUFFIX,rdtcdn.com
-DOMAIN-SUFFIX,redtube.com
-DOMAIN-SUFFIX,sb-cd.com
-DOMAIN-SUFFIX,spankbang.com
-DOMAIN-SUFFIX,t66y.com
-DOMAIN-SUFFIX,xhamster.com
-DOMAIN-SUFFIX,xnxx-cdn.com
-DOMAIN-SUFFIX,xnxx.com
-DOMAIN-SUFFIX,ypncdn.com
+  # Pixiv
+  - DOMAIN-SUFFIX,pixiv.net
+  - DOMAIN-SUFFIX,pximg.net
 
-# Pixiv
-DOMAIN-SUFFIX,pixiv.net
-DOMAIN-SUFFIX,pximg.net
+  # 应用分析
+  - DOMAIN-SUFFIX,amplitude.com
+  - DOMAIN-SUFFIX,hockeyapp.net
+  - DOMAIN-SUFFIX,readdle.com
+  - DOMAIN-SUFFIX,smartmailcloud.com
 
-# 应用分析
-DOMAIN-SUFFIX,amplitude.com
-DOMAIN-SUFFIX,hockeyapp.net
-DOMAIN-SUFFIX,readdle.com
-DOMAIN-SUFFIX,smartmailcloud.com
+  # 游戏平台
+  - DOMAIN-SUFFIX,fanatical.com
+  - DOMAIN-SUFFIX,humblebundle.com
+  - DOMAIN-SUFFIX,tap.io
+  - DOMAIN-SUFFIX,taptap.tw
 
-# 游戏平台
-DOMAIN-SUFFIX,fanatical.com
-DOMAIN-SUFFIX,humblebundle.com
-DOMAIN-SUFFIX,tap.io
-DOMAIN-SUFFIX,taptap.tw
+  # Twitch
+  - DOMAIN-SUFFIX,twitch.tv
+  - DOMAIN-SUFFIX,ttvnw.net
 
-# Twitch
-DOMAIN-SUFFIX,twitch.tv
-DOMAIN-SUFFIX,ttvnw.net
+  # Twitter
+  - DOMAIN-SUFFIX,t.co
+  - DOMAIN-SUFFIX,twimg.com
+  - DOMAIN-SUFFIX,twitter.com
 
-# Twitter
-DOMAIN-SUFFIX,t.co
-DOMAIN-SUFFIX,twimg.com
-DOMAIN-SUFFIX,twitter.com
+  # 百度网盘
+  - DOMAIN-SUFFIX,terabox.com
+  - DOMAIN-SUFFIX,teraboxcdn.com
 
-# 百度网盘
-DOMAIN-SUFFIX,terabox.com
-DOMAIN-SUFFIX,teraboxcdn.com
+  # 维基百科
+  - DOMAIN-SUFFIX,mediawiki.org
+  - DOMAIN-SUFFIX,wikibooks.org
+  - DOMAIN-SUFFIX,wikidata.org
+  - DOMAIN-SUFFIX,wikileaks.org
+  - DOMAIN-SUFFIX,wikimedia.org
+  - DOMAIN-SUFFIX,wikinews.org
+  - DOMAIN-SUFFIX,wikipedia.org
+  - DOMAIN-SUFFIX,wikiquote.org
+  - DOMAIN-SUFFIX,wikisource.org
+  - DOMAIN-SUFFIX,wikiversity.org
+  - DOMAIN-SUFFIX,wikivoyage.org
+  - DOMAIN-SUFFIX,wiktionary.org
 
-# 维基百科
-DOMAIN-SUFFIX,mediawiki.org
-DOMAIN-SUFFIX,wikibooks.org
-DOMAIN-SUFFIX,wikidata.org
-DOMAIN-SUFFIX,wikileaks.org
-DOMAIN-SUFFIX,wikimedia.org
-DOMAIN-SUFFIX,wikinews.org
-DOMAIN-SUFFIX,wikipedia.org
-DOMAIN-SUFFIX,wikiquote.org
-DOMAIN-SUFFIX,wikisource.org
-DOMAIN-SUFFIX,wikiversity.org
-DOMAIN-SUFFIX,wikivoyage.org
-DOMAIN-SUFFIX,wiktionary.org
+  # 其他媒体
+  - DOMAIN-SUFFIX,neulion.com
+  - DOMAIN-SUFFIX,icntv.xyz
+  - DOMAIN-SUFFIX,flzbcdn.xyz
+  - DOMAIN-SUFFIX,ocnttv.com
 
-# 其他媒体
-DOMAIN-SUFFIX,neulion.com
-DOMAIN-SUFFIX,icntv.xyz
-DOMAIN-SUFFIX,flzbcdn.xyz
-DOMAIN-SUFFIX,ocnttv.com
+  # Steam
+  - DOMAIN-SUFFIX,steamcommunity.com
+  - DOMAIN-SUFFIX,steampowered.com
 
-# Steam
-DOMAIN-SUFFIX,steamcommunity.com
-DOMAIN-SUFFIX,steampowered.com
+  # OnePlus
+  - DOMAIN,community.oneplus.com
 
-# OnePlus
-DOMAIN,community.oneplus.com
+  # OneDrive
+  - DOMAIN-SUFFIX,onedrive.live.com
+  - DOMAIN,onedrive.live.com
 
-# OneDrive
-DOMAIN-SUFFIX,onedrive.live.com
-DOMAIN,onedrive.live.com
+  # Apple TV
+  - DOMAIN,tv.apple.com
 
-# Apple TV
-DOMAIN,tv.apple.com
+  # IP 地址段
+  - IP-CIDR,1.201.0.0/24,no-resolve
+  - IP-CIDR,13.32.0.0/15,no-resolve
+  - IP-CIDR,18.184.0.0/15,no-resolve
+  - IP-CIDR,18.194.0.0/15,no-resolve
+  - IP-CIDR,18.208.0.0/13,no-resolve
+  - IP-CIDR,18.232.0.0/14,no-resolve
+  - IP-CIDR,27.0.236.0/22,no-resolve
+  - IP-CIDR,31.13.24.0/21,no-resolve
+  - IP-CIDR,31.13.64.0/18,no-resolve
+  - IP-CIDR,34.224.0.0/12,no-resolve
+  - IP-CIDR,45.64.40.0/22,no-resolve
+  - IP-CIDR,50.22.198.204/30,no-resolve
+  - IP-CIDR,52.58.0.0/15,no-resolve
+  - IP-CIDR,52.74.0.0/16,no-resolve
+  - IP-CIDR,52.77.0.0/16,no-resolve
+  - IP-CIDR,52.84.0.0/15,no-resolve
+  - IP-CIDR,52.200.0.0/13,no-resolve
+  - IP-CIDR,54.93.0.0/16,no-resolve
+  - IP-CIDR,54.156.0.0/14,no-resolve
+  - IP-CIDR,54.226.0.0/15,no-resolve
+  - IP-CIDR,54.230.156.0/22,no-resolve
+  - IP-CIDR,54.242.0.0/15,no-resolve
+  - IP-CIDR,66.220.144.0/20,no-resolve
+  - IP-CIDR,69.63.176.0/20,no-resolve
+  - IP-CIDR,69.171.224.0/19,no-resolve
+  - IP-CIDR,69.171.235.0/16,no-resolve
+  - IP-CIDR,74.119.76.0/22,no-resolve
+  - IP-CIDR,75.126.150.0/16,no-resolve
+  - IP-CIDR,103.2.28.0/24,no-resolve
+  - IP-CIDR,103.2.30.0/23,no-resolve
+  - IP-CIDR,103.4.96.0/22,no-resolve
+  - IP-CIDR,103.27.148.0/22,no-resolve
+  - IP-CIDR,103.246.56.0/22,no-resolve
+  - IP-CIDR,108.168.174.0/16,no-resolve
+  - IP-CIDR,110.76.140.0/22,no-resolve
+  - IP-CIDR,113.61.104.0/22,no-resolve
+  - IP-CIDR,119.235.224.0/24,no-resolve
+  - IP-CIDR,119.235.232.0/24,no-resolve
+  - IP-CIDR,119.235.235.0/24,no-resolve
+  - IP-CIDR,119.235.236.0/23,no-resolve
+  - IP-CIDR,129.134.0.0/17,no-resolve
+  - IP-CIDR,147.92.128.0/17,no-resolve
+  - IP-CIDR,157.240.0.0/17,no-resolve
+  - IP-CIDR,158.85.5.192/27,no-resolve
+  - IP-CIDR,158.85.46.128/27,no-resolve
+  - IP-CIDR,158.85.224.160/27,no-resolve
+  - IP-CIDR,173.192.222.160/27,no-resolve
+  - IP-CIDR,173.192.231.32/27,no-resolve
+  - IP-CIDR,173.252.64.0/18,no-resolve
+  - IP-CIDR,174.37.243.0/16,no-resolve
+  - IP-CIDR,179.60.192.0/22,no-resolve
+  - IP-CIDR,184.173.128.0/17,no-resolve
+  - IP-CIDR,185.60.216.0/22,no-resolve
+  - IP-CIDR,203.104.128.0/19,no-resolve
+  - IP-CIDR,204.15.20.0/22,no-resolve
+  - IP-CIDR,208.43.122.128/27,no-resolve
 
-# IP 地址段
-IP-CIDR,1.201.0.0/24,no-resolve
-IP-CIDR,13.32.0.0/15,no-resolve
-IP-CIDR,18.184.0.0/15,no-resolve
-IP-CIDR,18.194.0.0/15,no-resolve
-IP-CIDR,18.208.0.0/13,no-resolve
-IP-CIDR,18.232.0.0/14,no-resolve
-IP-CIDR,27.0.236.0/22,no-resolve
-IP-CIDR,31.13.24.0/21,no-resolve
-IP-CIDR,31.13.64.0/18,no-resolve
-IP-CIDR,34.224.0.0/12,no-resolve
-IP-CIDR,45.64.40.0/22,no-resolve
-IP-CIDR,50.22.198.204/30,no-resolve
-IP-CIDR,52.58.0.0/15,no-resolve
-IP-CIDR,52.74.0.0/16,no-resolve
-IP-CIDR,52.77.0.0/16,no-resolve
-IP-CIDR,52.84.0.0/15,no-resolve
-IP-CIDR,52.200.0.0/13,no-resolve
-IP-CIDR,54.93.0.0/16,no-resolve
-IP-CIDR,54.156.0.0/14,no-resolve
-IP-CIDR,54.226.0.0/15,no-resolve
-IP-CIDR,54.230.156.0/22,no-resolve
-IP-CIDR,54.242.0.0/15,no-resolve
-IP-CIDR,66.220.144.0/20,no-resolve
-IP-CIDR,69.63.176.0/20,no-resolve
-IP-CIDR,69.171.224.0/19,no-resolve
-IP-CIDR,69.171.235.0/16,no-resolve
-IP-CIDR,74.119.76.0/22,no-resolve
-IP-CIDR,75.126.150.0/16,no-resolve
-IP-CIDR,103.2.28.0/24,no-resolve
-IP-CIDR,103.2.30.0/23,no-resolve
-IP-CIDR,103.4.96.0/22,no-resolve
-IP-CIDR,103.27.148.0/22,no-resolve
-IP-CIDR,103.246.56.0/22,no-resolve
-IP-CIDR,108.168.174.0/16,no-resolve
-IP-CIDR,110.76.140.0/22,no-resolve
-IP-CIDR,113.61.104.0/22,no-resolve
-IP-CIDR,119.235.224.0/24,no-resolve
-IP-CIDR,119.235.232.0/24,no-resolve
-IP-CIDR,119.235.235.0/24,no-resolve
-IP-CIDR,119.235.236.0/23,no-resolve
-IP-CIDR,129.134.0.0/17,no-resolve
-IP-CIDR,147.92.128.0/17,no-resolve
-IP-CIDR,157.240.0.0/17,no-resolve
-IP-CIDR,158.85.5.192/27,no-resolve
-IP-CIDR,158.85.46.128/27,no-resolve
-IP-CIDR,158.85.224.160/27,no-resolve
-IP-CIDR,173.192.222.160/27,no-resolve
-IP-CIDR,173.192.231.32/27,no-resolve
-IP-CIDR,173.252.64.0/18,no-resolve
-IP-CIDR,174.37.243.0/16,no-resolve
-IP-CIDR,179.60.192.0/22,no-resolve
-IP-CIDR,184.173.128.0/17,no-resolve
-IP-CIDR,185.60.216.0/22,no-resolve
-IP-CIDR,203.104.128.0/19,no-resolve
-IP-CIDR,204.15.20.0/22,no-resolve
-IP-CIDR,208.43.122.128/27,no-resolve
+  # Telegram
+  - DOMAIN-SUFFIX,contest.com
+  - DOMAIN-SUFFIX,graph.org
+  - DOMAIN-SUFFIX,quiz.directory
+  - DOMAIN-SUFFIX,t.me
+  - DOMAIN-SUFFIX,tdesktop.com
+  - DOMAIN-SUFFIX,telega.one
+  - DOMAIN-SUFFIX,telegra.ph
+  - DOMAIN-SUFFIX,telegram.dog
+  - DOMAIN-SUFFIX,telegram.me
+  - DOMAIN-SUFFIX,telegram.org
+  - DOMAIN-SUFFIX,telegram.space
+  - DOMAIN-SUFFIX,telesco.pe
+  - DOMAIN-SUFFIX,tg.dev
+  - DOMAIN-SUFFIX,tx.me
+  - DOMAIN-SUFFIX,usercontent.dev
+  - IP-CIDR,91.108.0.0/16,no-resolve
+  - IP-CIDR,109.239.140.0/24,no-resolve
+  - IP-CIDR,149.154.160.0/20,no-resolve
+  - IP-CIDR6,2001:67c:4e8::/48,no-resolve
+  - IP-CIDR6,2001:b28:f23d::/48,no-resolve
+  - IP-CIDR6,2001:b28:f23f::/48,no-resolve
 
-# Telegram
-DOMAIN-SUFFIX,contest.com
-DOMAIN-SUFFIX,graph.org
-DOMAIN-SUFFIX,quiz.directory
-DOMAIN-SUFFIX,t.me
-DOMAIN-SUFFIX,tdesktop.com
-DOMAIN-SUFFIX,telega.one
-DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX,telegram.dog
-DOMAIN-SUFFIX,telegram.me
-DOMAIN-SUFFIX,telegram.org
-DOMAIN-SUFFIX,telegram.space
-DOMAIN-SUFFIX,telesco.pe
-DOMAIN-SUFFIX,tg.dev
-DOMAIN-SUFFIX,tx.me
-DOMAIN-SUFFIX,usercontent.dev
-IP-CIDR,91.108.0.0/16,no-resolve
-IP-CIDR,109.239.140.0/24,no-resolve
-IP-CIDR,149.154.160.0/20,no-resolve
-IP-CIDR6,2001:67c:4e8::/48,no-resolve
-IP-CIDR6,2001:b28:f23d::/48,no-resolve
-IP-CIDR6,2001:b28:f23f::/48,no-resolve
+  # YouTube 相关
+  - DOMAIN,ggpht.com
+  - DOMAIN-SUFFIX,googleapis.cn
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-SUFFIX,yt.be
+  - DOMAIN-SUFFIX,ytimg.com
 
-# YouTube 相关
-DOMAIN,ggpht.com
-DOMAIN-SUFFIX,googleapis.cn
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,googleusercontent.com
-DOMAIN-SUFFIX,yt.be
-DOMAIN-SUFFIX,ytimg.com
+  # Google 服务
+  - DOMAIN-SUFFIX,app-measurement.com
+  - DOMAIN-KEYWORD,gmail
+  - DOMAIN-KEYWORD,google
+  - DOMAIN-SUFFIX,google.cn
+  - DOMAIN-SUFFIX,google.com
+  - DOMAIN-SUFFIX,g.co
+  - DOMAIN-SUFFIX,ggpht.com
+  - DOMAIN-SUFFIX,goo.gl
+  - DOMAIN-SUFFIX,gstatic.cn
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,gv.com
+  - DOMAIN-SUFFIX,gvt0.com
+  - DOMAIN-SUFFIX,gvt1.com
+  - DOMAIN-SUFFIX,gvt2.com
+  - DOMAIN-SUFFIX,gvt3.com
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+  - DOMAIN-SUFFIX,android.com
+  - DOMAIN-SUFFIX,androidify.com
+  - DOMAIN-SUFFIX,dialogflow.com
+  - DOMAIN-SUFFIX,autodraw.com
+  - DOMAIN-SUFFIX,capitalg.com
+  - DOMAIN-SUFFIX,certificate-transparency.org
+  - DOMAIN-SUFFIX,chrome.com
+  - DOMAIN-SUFFIX,chromeexperiments.com
+  - DOMAIN-SUFFIX,chromestatus.com
+  - DOMAIN-SUFFIX,chromium.org
+  - DOMAIN-SUFFIX,gmail.com
+  - DOMAIN-SUFFIX,gmodules.com
+  - DOMAIN-SUFFIX,godoc.org
+  - DOMAIN-SUFFIX,golang.org
+  - DOMAIN-SUFFIX,gwtproject.org
 
-# Google 服务
-DOMAIN-SUFFIX,app-measurement.com
-DOMAIN-KEYWORD,gmail
-DOMAIN-KEYWORD,google
-DOMAIN-SUFFIX,google.cn
-DOMAIN-SUFFIX,google.com
-DOMAIN-SUFFIX,g.co
-DOMAIN-SUFFIX,ggpht.com
-DOMAIN-SUFFIX,goo.gl
-DOMAIN-SUFFIX,gstatic.cn
-DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,gv.com
-DOMAIN-SUFFIX,gvt0.com
-DOMAIN-SUFFIX,gvt1.com
-DOMAIN-SUFFIX,gvt2.com
-DOMAIN-SUFFIX,gvt3.com
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-DOMAIN-SUFFIX,android.com
-DOMAIN-SUFFIX,androidify.com
-DOMAIN-SUFFIX,dialogflow.com
-DOMAIN-SUFFIX,autodraw.com
-DOMAIN-SUFFIX,capitalg.com
-DOMAIN-SUFFIX,certificate-transparency.org
-DOMAIN-SUFFIX,chrome.com
-DOMAIN-SUFFIX,chromeexperiments.com
-DOMAIN-SUFFIX,chromestatus.com
-DOMAIN-SUFFIX,chromium.org
-DOMAIN-SUFFIX,gmail.com
-DOMAIN-SUFFIX,gmodules.com
-DOMAIN-SUFFIX,godoc.org
-DOMAIN-SUFFIX,golang.org
-DOMAIN-SUFFIX,gwtproject.org
+  # Google FCM
+  - DOMAIN,mtalk.google.com
+  - DOMAIN,alt1-mtalk.google.com
+  - DOMAIN,alt2-mtalk.google.com
+  - DOMAIN,alt3-mtalk.google.com
+  - DOMAIN,alt4-mtalk.google.com
+  - DOMAIN,alt5-mtalk.google.com
+  - DOMAIN,alt6-mtalk.google.com
+  - DOMAIN,alt7-mtalk.google.com
+  - DOMAIN,alt8-mtalk.google.com
 
-# Google FCM
-DOMAIN,mtalk.google.com
-DOMAIN,alt1-mtalk.google.com
-DOMAIN,alt2-mtalk.google.com
-DOMAIN,alt3-mtalk.google.com
-DOMAIN,alt4-mtalk.google.com
-DOMAIN,alt5-mtalk.google.com
-DOMAIN,alt6-mtalk.google.com
-DOMAIN,alt7-mtalk.google.com
-DOMAIN,alt8-mtalk.google.com
+  # Google IP 段
+  - IP-CIDR,64.233.177.188/32,no-resolve
+  - IP-CIDR,64.233.186.188/32,no-resolve
+  - IP-CIDR,64.233.187.188/32,no-resolve
+  - IP-CIDR,64.233.188.188/32,no-resolve
+  - IP-CIDR,64.233.189.188/32,no-resolve
+  - IP-CIDR,74.125.23.188/32,no-resolve
+  - IP-CIDR,74.125.24.188/32,no-resolve
+  - IP-CIDR,74.125.28.188/32,no-resolve
+  - IP-CIDR,74.125.127.188/32,no-resolve
+  - IP-CIDR,74.125.137.188/32,no-resolve
+  - IP-CIDR,74.125.203.188/32,no-resolve
+  - IP-CIDR,74.125.204.188/32,no-resolve
+  - IP-CIDR,74.125.206.188/32,no-resolve
+  - IP-CIDR,108.177.125.188/32,no-resolve
+  - IP-CIDR,142.250.4.188/32,no-resolve
+  - IP-CIDR,142.250.10.188/32,no-resolve
+  - IP-CIDR,142.250.31.188/32,no-resolve
+  - IP-CIDR,142.250.96.188/32,no-resolve
+  - IP-CIDR,172.217.194.188/32,no-resolve
+  - IP-CIDR,172.217.218.188/32,no-resolve
+  - IP-CIDR,172.217.219.188/32,no-resolve
+  - IP-CIDR,172.253.63.188/32,no-resolve
+  - IP-CIDR,172.253.122.188/32,no-resolve
+  - IP-CIDR,173.194.175.188/32,no-resolve
+  - IP-CIDR,173.194.218.188/32,no-resolve
+  - IP-CIDR,209.85.233.188/32,no-resolve
 
-# Google IP 段
-IP-CIDR,64.233.177.188/32,no-resolve
-IP-CIDR,64.233.186.188/32,no-resolve
-IP-CIDR,64.233.187.188/32,no-resolve
-IP-CIDR,64.233.188.188/32,no-resolve
-IP-CIDR,64.233.189.188/32,no-resolve
-IP-CIDR,74.125.23.188/32,no-resolve
-IP-CIDR,74.125.24.188/32,no-resolve
-IP-CIDR,74.125.28.188/32,no-resolve
-IP-CIDR,74.125.127.188/32,no-resolve
-IP-CIDR,74.125.137.188/32,no-resolve
-IP-CIDR,74.125.203.188/32,no-resolve
-IP-CIDR,74.125.204.188/32,no-resolve
-IP-CIDR,74.125.206.188/32,no-resolve
-IP-CIDR,108.177.125.188/32,no-resolve
-IP-CIDR,142.250.4.188/32,no-resolve
-IP-CIDR,142.250.10.188/32,no-resolve
-IP-CIDR,142.250.31.188/32,no-resolve
-IP-CIDR,142.250.96.188/32,no-resolve
-IP-CIDR,172.217.194.188/32,no-resolve
-IP-CIDR,172.217.218.188/32,no-resolve
-IP-CIDR,172.217.219.188/32,no-resolve
-IP-CIDR,172.253.63.188/32,no-resolve
-IP-CIDR,172.253.122.188/32,no-resolve
-IP-CIDR,173.194.175.188/32,no-resolve
-IP-CIDR,173.194.218.188/32,no-resolve
-IP-CIDR,209.85.233.188/32,no-resolve
+  # Netflix 相关
+  - DOMAIN-KEYWORD,dualstack.apiproxy-
+  - DOMAIN-KEYWORD,dualstack.ichnaea-web-
+  - DOMAIN-SUFFIX,netflix.ca
+  - DOMAIN-SUFFIX,netflix.net
+  - DOMAIN-SUFFIX,nflxsearch.net
+  - DOMAIN-SUFFIX,netflixinvestor.com
+  - DOMAIN-SUFFIX,netflixtechblog.com
+  - DOMAIN-SUFFIX,netflixdnstest10.com
 
-# Netflix 相关
-DOMAIN-KEYWORD,dualstack.apiproxy-
-DOMAIN-KEYWORD,dualstack.ichnaea-web-
-DOMAIN-SUFFIX,netflix.ca
-DOMAIN-SUFFIX,netflix.net
-DOMAIN-SUFFIX,nflxsearch.net
-DOMAIN-SUFFIX,netflixinvestor.com
-DOMAIN-SUFFIX,netflixtechblog.com
-DOMAIN-SUFFIX,netflixdnstest10.com
+  # Netflix IP 段
+  - IP-CIDR,8.41.4.0/24,no-resolve
+  - IP-CIDR,23.246.0.0/18,no-resolve
+  - IP-CIDR,34.210.42.111/32,no-resolve
+  - IP-CIDR,37.77.184.0/21,no-resolve
+  - IP-CIDR,38.72.126.0/24,no-resolve
+  - IP-CIDR,45.57.0.0/17,no-resolve
+  - IP-CIDR,52.89.124.203/32,no-resolve
+  - IP-CIDR,54.148.37.5/32,no-resolve
+  - IP-CIDR,64.120.128.0/17,no-resolve
+  - IP-CIDR,66.197.128.0/17,no-resolve
+  - IP-CIDR,69.53.224.0/19,no-resolve
+  - IP-CIDR,103.87.204.0/22,no-resolve
+  - IP-CIDR,108.175.32.0/20,no-resolve
+  - IP-CIDR,185.2.220.0/22,no-resolve
+  - IP-CIDR,185.9.188.0/22,no-resolve
+  - IP-CIDR,192.173.64.0/18,no-resolve
+  - IP-CIDR,198.38.96.0/19,no-resolve
+  - IP-CIDR,198.45.48.0/20,no-resolve
+  - IP-CIDR,207.45.72.0/22,no-resolve
+  - IP-CIDR,208.75.76.0/22,no-resolve
 
-# Netflix IP 段
-IP-CIDR,8.41.4.0/24,no-resolve
-IP-CIDR,23.246.0.0/18,no-resolve
-IP-CIDR,34.210.42.111/32,no-resolve
-IP-CIDR,37.77.184.0/21,no-resolve
-IP-CIDR,38.72.126.0/24,no-resolve
-IP-CIDR,45.57.0.0/17,no-resolve
-IP-CIDR,52.89.124.203/32,no-resolve
-IP-CIDR,54.148.37.5/32,no-resolve
-IP-CIDR,64.120.128.0/17,no-resolve
-IP-CIDR,66.197.128.0/17,no-resolve
-IP-CIDR,69.53.224.0/19,no-resolve
-IP-CIDR,103.87.204.0/22,no-resolve
-IP-CIDR,108.175.32.0/20,no-resolve
-IP-CIDR,185.2.220.0/22,no-resolve
-IP-CIDR,185.9.188.0/22,no-resolve
-IP-CIDR,192.173.64.0/18,no-resolve
-IP-CIDR,198.38.96.0/19,no-resolve
-IP-CIDR,198.45.48.0/20,no-resolve
-IP-CIDR,207.45.72.0/22,no-resolve
-IP-CIDR,208.75.76.0/22,no-resolve
-
-# 台湾媒体服务
-DOMAIN-SUFFIX,hinet.net
-DOMAIN-SUFFIX,bahamut.akamaized.net
-DOMAIN-KEYWORD,myvideo
-DOMAIN-SUFFIX,myvideo.net.tw
-DOMAIN-KEYWORD,friday.tw
-DOMAIN-SUFFIX,video.friday.tw
-DOMAIN-SUFFIX,member.friday.tw
-DOMAIN-SUFFIX,userlogp.fridaylogger.com
-DOMAIN-KEYWORD,litv
-DOMAIN-SUFFIX,litv.tv
-DOMAIN-SUFFIX,api.svc.taiwanmedia.org
-DOMAIN-SUFFIX,litvfreemobile-hichannel.cdn.hinet.net
-DOMAIN-SUFFIX,litvfreepc-hichannel.cdn.hinet.net
-DOMAIN-KEYWORD,linetv
-DOMAIN-SUFFIX,linetv.tw
-DOMAIN-SUFFIX,a.amnet.tw
-DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net
-DOMAIN-KEYWORD,4gtv
-DOMAIN-SUFFIX,4gtv.tv
-DOMAIN-SUFFIX,4gtvfreepc-cds.cdn.hinet.net
-DOMAIN-SUFFIX,4gtvfreepcvod-cds.cdn.hinet.net
-DOMAIN-SUFFIX,4gtvpc-cds.cdn.hinet.net
-DOMAIN-SUFFIX,4gtvpcvod-cds.cdn.hinet.net
-DOMAIN-KEYWORD,hamivideo
-DOMAIN-SUFFIX,hamivideo.hinet.net
-DOMAIN-SUFFIX,apl-hamivideo.cdn.hinet.net
-DOMAIN-SUFFIX,hls-hichannel.cdn.hinet.net
-DOMAIN-SUFFIX,static-hamivideo.cdn.hinet.net
-DOMAIN-SUFFIX,previewvod-hamivideo.cdn.hinet.net
-DOMAIN-SUFFIX,banner-cfnetwork.cdn.hinet.net
-DOMAIN-KEYWORD,catchplay
-DOMAIN-SUFFIX,catchplay.com
-DOMAIN-SUFFIX,d2ivmxp5z2ww0n.cloudfront.net
-DOMAIN-SUFFIX,tra-www000-cp.akamaized.net
-DOMAIN-KEYWORD,elevensports
-DOMAIN-SUFFIX,tw-elevensports.com
-DOMAIN-SUFFIX,elevensports.tw
-DOMAIN-SUFFIX,cdn.plyr.io
-DOMAIN-SUFFIX,v-saas.com
-DOMAIN-KEYWORD,kkbox
-DOMAIN-KEYWORD,kktv
-DOMAIN-SUFFIX,kfs.io
+  # 台湾媒体服务
+  - DOMAIN-SUFFIX,hinet.net
+  - DOMAIN-SUFFIX,bahamut.akamaized.net
+  - DOMAIN-KEYWORD,myvideo
+  - DOMAIN-SUFFIX,myvideo.net.tw
+  - DOMAIN-KEYWORD,friday.tw
+  - DOMAIN-SUFFIX,video.friday.tw
+  - DOMAIN-SUFFIX,member.friday.tw
+  - DOMAIN-SUFFIX,userlogp.fridaylogger.com
+  - DOMAIN-KEYWORD,litv
+  - DOMAIN-SUFFIX,litv.tv
+  - DOMAIN-SUFFIX,api.svc.taiwanmedia.org
+  - DOMAIN-SUFFIX,litvfreemobile-hichannel.cdn.hinet.net
+  - DOMAIN-SUFFIX,litvfreepc-hichannel.cdn.hinet.net
+  - DOMAIN-KEYWORD,linetv
+  - DOMAIN-SUFFIX,linetv.tw
+  - DOMAIN-SUFFIX,a.amnet.tw
+  - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net
+  - DOMAIN-KEYWORD,4gtv
+  - DOMAIN-SUFFIX,4gtv.tv
+  - DOMAIN-SUFFIX,4gtvfreepc-cds.cdn.hinet.net
+  - DOMAIN-SUFFIX,4gtvfreepcvod-cds.cdn.hinet.net
+  - DOMAIN-SUFFIX,4gtvpc-cds.cdn.hinet.net
+  - DOMAIN-SUFFIX,4gtvpcvod-cds.cdn.hinet.net
+  - DOMAIN-KEYWORD,hamivideo
+  - DOMAIN-SUFFIX,hamivideo.hinet.net
+  - DOMAIN-SUFFIX,apl-hamivideo.cdn.hinet.net
+  - DOMAIN-SUFFIX,hls-hichannel.cdn.hinet.net
+  - DOMAIN-SUFFIX,static-hamivideo.cdn.hinet.net
+  - DOMAIN-SUFFIX,previewvod-hamivideo.cdn.hinet.net
+  - DOMAIN-SUFFIX,banner-cfnetwork.cdn.hinet.net
+  - DOMAIN-KEYWORD,catchplay
+  - DOMAIN-SUFFIX,catchplay.com
+  - DOMAIN-SUFFIX,d2ivmxp5z2ww0n.cloudfront.net
+  - DOMAIN-SUFFIX,tra-www000-cp.akamaized.net
+  - DOMAIN-KEYWORD,elevensports
+  - DOMAIN-SUFFIX,tw-elevensports.com
+  - DOMAIN-SUFFIX,elevensports.tw
+  - DOMAIN-SUFFIX,cdn.plyr.io
+  - DOMAIN-SUFFIX,v-saas.com
+  - DOMAIN-KEYWORD,kkbox
+  - DOMAIN-KEYWORD,kktv
+  - DOMAIN-SUFFIX,kfs.io
