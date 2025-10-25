@@ -6,4 +6,5 @@ payload:
   - '+.trae.ai'
   - '+.ztsy.link'
   - '+.byteintlapi.com'
+  - '+.cursor.sh'
   
