@@ -31434,5 +31434,6 @@ payload:
   - '+.io.net'
   - '+.io.solutions'
   - '+.redfinger.com'
+  - '+.investing.com'
 
 
