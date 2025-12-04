@@ -31435,5 +31435,7 @@ payload:
   - '+.io.solutions'
   - '+.redfinger.com'
   - '+.investing.com'
+  - '+.langchain.com'
+
 
 
