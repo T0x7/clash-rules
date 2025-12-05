@@ -31436,6 +31436,7 @@ payload:
   - '+.redfinger.com'
   - '+.investing.com'
   - '+.langchain.com'
+  - '+.fastlydns.net'
 
 
 
