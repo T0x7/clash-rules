@@ -573,3 +573,6 @@ payload:
   - DOMAIN-KEYWORD,kkbox
   - DOMAIN-KEYWORD,kktv
   - DOMAIN-SUFFIX,kfs.io
+
+  # 爬虫
+  - DOMAIN-SUFFIX,futunn.com
