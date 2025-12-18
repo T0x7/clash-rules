@@ -31438,4 +31438,5 @@ payload:
   - '+.langchain.com'
   - '+.fastlydns.net'
   - '+.imf.org'
+  - '+.etsy.com'
 
