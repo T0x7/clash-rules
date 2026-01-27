@@ -31439,4 +31439,5 @@ payload:
   - '+.fastlydns.net'
   - '+.imf.org'
   - '+.etsy.com'
+  - '+.clawd.bot'
 
